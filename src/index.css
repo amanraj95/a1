@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: "RACING";
+    src: url("./Assets/Fonts/RacingSansOne-Regular.ttf");
+  }
+
+
+  @font-face {
+    font-family: "ROBOTO";
+    src: url("./Assets/Fonts/RobotoCondensed-Bold.ttf");
+  }
+
+  @font-face {
+    font-family: "ROBOTOREG";
+    src: url("./Assets/Fonts/RobotoCondensed-Regular.ttf");
+  }
+
+  @keyframes border-light {
+    0% {
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+    }
+    100% {
+      box-shadow: 0 0 0 20px rgba(255, 255, 255, 0);
+    }
+  }
+  
